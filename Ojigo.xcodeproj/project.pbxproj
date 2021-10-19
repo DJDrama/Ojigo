@@ -11,6 +11,8 @@
 		229590AC271F062200F5CD70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229590AB271F062200F5CD70 /* ContentView.swift */; };
 		229590AE271F062800F5CD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229590AD271F062800F5CD70 /* Assets.xcassets */; };
 		229590B1271F062800F5CD70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229590B0271F062800F5CD70 /* Preview Assets.xcassets */; };
+		229590BC271F065E00F5CD70 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229590BB271F065E00F5CD70 /* Constants.swift */; };
+		229590C1271F067E00F5CD70 /* WebBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229590C0271F067E00F5CD70 /* WebBrowserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		229590AD271F062800F5CD70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		229590B0271F062800F5CD70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		229590B2271F062800F5CD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229590BB271F065E00F5CD70 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		229590C0271F067E00F5CD70 /* WebBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		229590A8271F062200F5CD70 /* Ojigo */ = {
 			isa = PBXGroup;
 			children = (
+				229590BF271F067000F5CD70 /* Components */,
+				229590BA271F065600F5CD70 /* Utils */,
+				229590B9271F065100F5CD70 /* View */,
 				229590A9271F062200F5CD70 /* OjigoApp.swift */,
-				229590AB271F062200F5CD70 /* ContentView.swift */,
 				229590AD271F062800F5CD70 /* Assets.xcassets */,
 				229590B2271F062800F5CD70 /* Info.plist */,
 				229590AF271F062800F5CD70 /* Preview Content */,
@@ -67,6 +73,30 @@
 				229590B0271F062800F5CD70 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		229590B9271F065100F5CD70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				229590AB271F062200F5CD70 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		229590BA271F065600F5CD70 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				229590BB271F065E00F5CD70 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		229590BF271F067000F5CD70 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				229590C0271F067E00F5CD70 /* WebBrowserView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229590C1271F067E00F5CD70 /* WebBrowserView.swift in Sources */,
 				229590AC271F062200F5CD70 /* ContentView.swift in Sources */,
 				229590AA271F062200F5CD70 /* OjigoApp.swift in Sources */,
+				229590BC271F065E00F5CD70 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

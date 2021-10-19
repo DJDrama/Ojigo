@@ -11,7 +11,7 @@ import SwiftUI
 struct OjigoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(url: MAIN_URL)
         }
     }
 }
